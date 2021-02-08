@@ -5,6 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "@cypress/code-coverage": "3.8.1",
+    "@cypress/vue-2": "0.0.0-development",
     "@cypress/webpack-dev-server": "0.0.0-development"
-  }
+  },
+  "types": "types.d.ts"
 }
