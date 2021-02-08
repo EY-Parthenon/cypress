@@ -2,5 +2,9 @@
   "name": "@cypress/vue",
   "version": "0.0.0-development",
   "description": "Browser-based Component Testing for Vue.js with Cypress.io ✌️🌲",
-  "main": "dist/index.js"
+  "main": "index.js",
+  "dependencies": {
+    "@cypress/code-coverage": "3.8.1",
+    "@cypress/webpack-dev-server": "0.0.0-development"
+  }
 }

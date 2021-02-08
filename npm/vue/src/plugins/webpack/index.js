@@ -6,6 +6,7 @@ const { startDevServer } = require('@cypress/webpack-dev-server')
  * IMPORTANT to return the config object with
  * with the any changed environment variables.
  *
+ * @param {Cypress.PluginEvents} on Cypress events function.
  * @param {Cypress.PluginConfigOptions} config Cypress config object.
  * @example
  *  // in your project's plugins/index.js file
