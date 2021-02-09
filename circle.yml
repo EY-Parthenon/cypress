@@ -1083,12 +1083,15 @@ jobs:
           at: ~/
       - check-conditional-ci
       - run:
-          name: Build
-          command: yarn workspace @cypress/vue build
+          name: Build Vue 2
+          command: yarn workspace @cypress/vue-2 build
       - run:
-          name: Run tests
+          name: Run tests Vue 2
           command: yarn test
-          working_directory: npm/vue
+          working_directory: npm/vue-2
+      - run:
+          name: Build Vue 3
+          command: yarn workspace @cypress/vue-3 build
       - store-npm-logs
 
   npm-react:

@@ -3,10 +3,21 @@
   "version": "0.0.0-development",
   "description": "Browser-based Component Testing for Vue.js with Cypress.io ✌️🌲",
   "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./scripts/postinstall.js"
+  },
   "dependencies": {
     "@cypress/code-coverage": "3.8.1",
     "@cypress/vue-2": "0.0.0-development",
     "@cypress/webpack-dev-server": "0.0.0-development"
   },
+  "peerDependencies": {
+    "vue": ">=2.6.0 || >=3.0.0"
+  },
+  "files": [
+    "scripts",
+    "*.js",
+    "*.d.ts"
+  ],
   "types": "index.d.ts"
 }
