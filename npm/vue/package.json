@@ -8,5 +8,5 @@
     "@cypress/vue-2": "0.0.0-development",
     "@cypress/webpack-dev-server": "0.0.0-development"
   },
-  "types": "types.d.ts"
+  "types": "index.d.ts"
 }
