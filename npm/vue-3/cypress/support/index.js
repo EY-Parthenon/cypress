@@ -1,1 +1,1 @@
-require('../../dist/support')
+require('@cypress/vue/src/support')
